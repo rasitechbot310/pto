@@ -1,0 +1,34 @@
+{
+  "name": "EXECUTOR-bmd",
+  "version": "1.0.0",
+  "description": "obey bot multi device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "pm2 start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcode-denpa/Semar-BMD.git"
+  },
+  "keywords": [],
+  "author": "Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcode-denpa/Semar-BMD/issues"
+  },
+  "homepage": "https://github.com/dcode-denpa/Semar-BMD#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "4.3.0",
+    "awesome-phonenumber": "^4.0.0",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.39",
+    "node-fetch": "^2.6.7",
+    "pm2": "^5.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "util": "^0.12.5"
+  }
+}
